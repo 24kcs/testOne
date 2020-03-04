@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFCC3F",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

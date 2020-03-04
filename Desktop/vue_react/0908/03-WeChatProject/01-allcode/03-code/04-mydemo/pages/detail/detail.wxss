@@ -1,0 +1,75 @@
+/* pages/detail/detail.wxss */
+/* 容器的样式 */
+.detailContainer{
+  display: flex;
+  flex-direction: column;
+}
+.music{
+  width :60rpx;
+  height:60rpx;
+  position: absolute;
+  left:50%;
+  top:200rpx;
+  margin-left: -30rpx;
+}
+/* 顶部的图片样式 */
+.detail_header{
+  width: 100%;
+  height:460rpx;
+}
+/* 作者和日期的样式 */
+.detail_author_date{
+  padding: 10rpx;
+}
+.detail_author_date image{
+  width:64rpx;
+  height:64rpx;
+  border-radius: 32rpx;
+  vertical-align: middle;
+}
+.detail_author_date text{
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+/* 教育理念样式 */
+.detail_company{
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10rpx 0 10rpx 30rpx;
+}
+/* 分享和收藏和横线的容器样式 */
+.detail_collection_share{
+  position: relative;
+}
+/* 分享和收藏的小容器的图片样式 */
+.col_share_img{
+  float: right;
+  margin-right: 60rpx;
+}
+.col_share_img image{
+  width:90rpx;
+  height:90rpx;
+  margin-right: 10rpx;
+}
+/* 横线的样式 */
+.line{
+  width:90%;
+  height:1px;
+  background-color: #666;
+  position: absolute;
+  left:5%;
+  top:45rpx;
+  z-index: -1;
+}
+/* 按钮的样式 */
+button{
+  width: 260rpx;
+  height:80rpx;
+}
+/* 文本描述信息的样式 */
+.detail_content{
+  font-size: 14px;
+  line-height: 28px;
+  text-indent: 14px;
+}

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#02a774",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "欢迎来到激情俱乐部",
+    "backgroundColor": "#7FFF00",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

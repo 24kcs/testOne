@@ -1,0 +1,21 @@
+<!--pages/template/template.wxml-->
+
+<template name="msgItem">
+  <view class="tempContainer">
+    <view class="avatar">
+      <image src="/images/avatar/0.png"></image>
+      <text>may 19 2018</text>
+    </view>
+    <text class="company">教育理念</text>
+    <image class="company-img" src="/images/detail/carousel/01.jpg"></image>
+    <text class="company-text">让每一个IT人,都直接或渐渐的收到帮助,让每一个IT人,都直接或渐渐的收到帮助,让每一个IT人,都直接或渐渐的收到帮助,让每一个IT人,都直接或渐渐的收到帮助,让每一个IT人,都直接或渐渐的收到帮助</text>
+    <view class="company-img-text">
+      <image src="/images/icon/chat.png"></image>
+      <text>88</text>
+      <image src="/images/icon/view.png"></image>
+      <text>66</text>
+    </view>
+
+  </view>
+
+</template>

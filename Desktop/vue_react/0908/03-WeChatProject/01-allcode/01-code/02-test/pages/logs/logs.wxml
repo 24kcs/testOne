@@ -1,0 +1,4 @@
+<!--pages/logs/logs.wxml-->
+<view>
+  <text>哈哈,我好帅哦</text>
+</view>

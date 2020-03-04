@@ -1,0 +1,17 @@
+/* pages/list/list.wxss */
+/* 引入模版的css文件 */
+@import '/pages/template/template.wxss';
+.listContainer {
+  width: 100%;
+  height: 100%;
+}
+
+swiper {
+  width: 100%;
+  height: 400rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view>
+  <text>神奇的按钮</text>
+</view>

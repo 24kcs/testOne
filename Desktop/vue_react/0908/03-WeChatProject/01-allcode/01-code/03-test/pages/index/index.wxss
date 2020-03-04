@@ -1,0 +1,30 @@
+/* pages/index/index.wxss */
+
+.container {
+  width: 200rpx;
+  height: 80rpx;
+  border: 1rpx solid red;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20rpx;
+}
+
+.container text {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.btn-container{
+  margin-top:200rpx;
+  width: 200rpx;
+  height: 80rpx;
+  border: 1rpx solid red;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20rpx;
+  background-color: yellow;
+}
+
+.btn-container text {
+  font-size: 28rpx;
+  font-weight: 700;
+}

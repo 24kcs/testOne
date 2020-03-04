@@ -1,0 +1,79 @@
+/* pages/detail/detail.wxss */
+/* 容器变成伸缩盒子 */
+.detailContainer{
+  display: flex;
+  flex-direction: column;
+}
+.music{
+  width:60rpx;
+  height:60rpx;
+  position: absolute;
+  left:50%;
+  top:200rpx;
+  margin-left:-30rpx;
+}
+/* 设置图片的宽慰100%,高度为460rpx */
+.detail_header{
+  width:100%;
+  height:460rpx;
+}
+/* 作者这一栏有个内边距10rpx */
+.detail_author_date{
+  padding: 10rpx;
+}
+/* 设置图片的宽高及边框圆角,还有基线对齐 */
+.detail_author_date image{
+  width:64rpx;
+  height:64rpx;
+  border-radius: 32rpx;
+  vertical-align: middle;
+}
+/* 字体大小基线对齐,左边有点距离 */
+.detail_author_date text{
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+/* 字体大小,粗体,上右下左 */
+.detail_company{
+  font-size: 32rpx;
+  font-weight: 700;
+  margin:10rpx 0 10rpx 30rpx;
+}
+/* 由于里面要脱离文档流,子绝父相 */
+.detail_collection_share{
+  position: relative
+}
+/* 整体向右浮动,并设置右侧距离 */
+.col_share_img{
+  float: right;
+  margin-right: 60rpx;
+}
+/* 图片设置大小,并设置间距 */
+.col_share_img image{
+  width:90rpx;
+  height:90rpx;
+  margin-right:10rpx;
+}
+/* 设置这条线的宽和高,脱离文档流,垂直居中,线的宽度,左边的距离,还有在底下显示 */
+.line{
+  width:90%;
+  height:1px;
+  background-color: #666;
+  position: absolute;
+  top:45rpx;
+  left:5%;
+  z-index:-1;
+ 
+}
+/* 按钮的宽和高 */
+button{
+  width:260rpx;
+  height:80rpx;
+}
+/* 文字的大小,垂直居中,左边有个距离 */
+.detail_content{
+  font-size:14px;
+  line-height: 28px;
+  text-indent: 14px;
+}

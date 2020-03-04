@@ -1,0 +1,9 @@
+
+<view class="indexContainer">
+<button wx:if="{{!userInfo.nickName}}" class="btn" open-type="getUserInfo" bindgetuserinfo="getUser">获取用户</button>
+  <image wx:if="{{userInfo.nickName}}" class="avatar" src="{{userInfo.nickName?userInfo.avatarUrl:'/images/index/cart.jpg'}}"></image>
+  <text class="userName">{{userInfo.nickName?userInfo.nickName:'小泽'}}</text>
+  <view class="button-container" bindtap="goList">
+    <text>开启小程序之旅</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class="container" catchtap="changeMsg">
+    <text>神奇的按钮</text>
+  </view>
+  <text>{{msg}}</text>
+
+
+
+  <view class="btn-container" bindtap="showMsg2">
+    <text bindtap="showMsg1">300万</text>
+  </view>
+</view>
